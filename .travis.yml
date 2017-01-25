@@ -12,4 +12,5 @@ install:
   - make -C /tmp/sf2dlib-master/libsf2d
 
 script:
+  - rm source/font/source/main.cpp
   - make
