@@ -4,8 +4,8 @@ before_install:
   - wget http://sourceforge.net/projects/devkitpro/files/Automated%20Installer/devkitARMupdate.pl
   - export DEVKITPRO=/home/travis/devkitPro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
-  - wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb
-  - sudo dpkg -i libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb
+  - wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.3.1-14ubuntu2_amd64.deb
+  - sudo dpkg -i libstdc++6_5.3.1-14ubuntu2_amd64.deb
 
 install:
   - sudo perl devkitARMupdate.pl
