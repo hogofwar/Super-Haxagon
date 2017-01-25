@@ -5,7 +5,8 @@ addons:
     sources:
       - ubuntu-toolchain-r-test
     packages:
-      - libstdc++-6
+      - g++-4.9
+      - libstdc++6-4.9-dbg
 
 before_install:
   - wget http://sourceforge.net/projects/devkitpro/files/Automated%20Installer/devkitARMupdate.pl
