@@ -24,7 +24,7 @@ SOURCE_DIRS := source
 
 EXTRA_OUTPUT_FILES :=
 
-LIBRARY_DIRS := $(DEVKITPRO)/libctru
+LIBRARY_DIRS := $(DEVKITPRO)/libctru /tmp/sf2dlib-master
 LIBRARIES :=  sf2d citro3d ctru
 
 BUILD_FLAGS :=
