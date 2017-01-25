@@ -4,6 +4,7 @@ before_install:
   - wget http://sourceforge.net/projects/devkitpro/files/Automated%20Installer/devkitARMupdate.pl
   - export DEVKITPRO=/home/travis/devkitPro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
+  - sudo apt-get remove -y chromium-browser
   - wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.3.1-14ubuntu2_amd64.deb
   - sudo dpkg -i libstdc++6_5.3.1-14ubuntu2_amd64.deb
 
