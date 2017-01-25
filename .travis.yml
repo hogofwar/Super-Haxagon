@@ -9,7 +9,8 @@ install:
   - sudo perl devkitARMupdate.pl
   - wget https://github.com/xerpi/sf2dlib/archive/master.zip -O /tmp/sf2dlib.zip
   - unzip /tmp/sf2dlib.zip -d /tmp
-  - make -C tmp/sf2dlib-master/libsf2d
+  - cd tmp/sf2dlib-master/libsf2d
+  - make
 
 script:
   - make
