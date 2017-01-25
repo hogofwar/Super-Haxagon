@@ -4,7 +4,6 @@ before_install:
   - wget http://sourceforge.net/projects/devkitpro/files/Automated%20Installer/devkitARMupdate.pl
   - export DEVKITPRO=/home/travis/devkitPro
   - export DEVKITARM=${DEVKITPRO}/devkitARM
-  - wget https://github.com/xerpi/sf2dlib/archive/c5aaec5eaf0337c979d5d832fed7f0e4342bae8e.zip sf2dlib.zip
 
 install:
   - sudo perl devkitARMupdate.pl
